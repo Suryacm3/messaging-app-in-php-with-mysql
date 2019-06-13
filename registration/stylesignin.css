@@ -1,0 +1,91 @@
+body{
+	background-color: #f2f2f2;
+	font-family: century gothic ;
+	font-style: bold;
+}
+input{
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+a{
+	margin-left: 100px;
+	float:center;
+	color: #007399;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration:none;
+
+}
+a:hover{
+	color:black;
+}
+/*img{
+	border-radius: 50%;
+	margin-left:70px; 
+}
+input[type=file]{
+	background-color:  #b3e0ff; 
+	border-radius: 5px;
+	color: black;
+	margin-top: 5px;
+	text-align: center;
+	}*/
+	#formid{
+		background-image: linear-gradient(#33adff, #F8F8FF);
+		box-shadow: 10px 10px 5px grey;
+		height:400px;
+		width:330px;
+		margin-top:80px;
+		margin-bottom: 200px;
+		margin-right: 600px;
+		margin-left: 600px;
+		display: inline-block;
+		padding:30px;
+		border-radius:30px;
+	}
+	input:hover{
+		background-color: #e6f9ff;
+		border:none;
+	}
+	#spann{
+		float:center;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 40px;
+		margin-bottom: 10px;
+	}
+	input[type=submit]{
+		float: left;
+	}
+	input[type=reset] {
+		float: right;
+	}
+	input[type=submit]:hover{
+		background-color: #e6f9ff;	
+	}
+	input[type=reset]:hover{
+		background-color: #e6f9ff;
+	}
+	input[type=submit], input[type=reset] {
+		margin-left: 25px;
+		margin-right: 25px; 
+		border-radius: 5px;
+		border:none;
+		background-color:  #b3e0ff;
+		border: none;
+		border-radius: 5px;
+		color: black;
+		padding: none;
+		text-align: center;
+		width: 100px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 17px;
+	}
+	input{
+		padding:10px;
+		width:300px;
+		border-radius: 5px;
+	}
